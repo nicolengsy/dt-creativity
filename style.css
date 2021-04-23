@@ -9,6 +9,8 @@ body{
 }
 .leftSide{
 	width:30%;
+	padding-left: 5%;
+	padding-right:5%;
 }
 .rightSide{
 	width:70%;
@@ -24,4 +26,29 @@ body{
 .photographerYear{
 	font-size:24px;
 	margin-top:5px;
+}
+.leftVerticalPhotos{
+	padding-top: 5%;
+}
+.photos{
+	width:100%;
+}
+.rightBottomPhoto{
+	width:60%;
+	padding-top:5%; 
+}
+.row1{
+	display:flex;
+}
+.width30{
+	width:30%;
+}
+.width70{
+	width:70%;
+}
+.rightAlign{
+	text-align:right;
+}
+.page{
+	margin-top: 50px;
 }
