@@ -1,6 +1,6 @@
 body{
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 15%;
+	margin-right: 15%;
 	background-color:#f7F3F0;
 	font-family: 'Source Sans Pro', sans-serif;
 }
@@ -9,7 +9,7 @@ body{
 }
 .leftSide{
 	width:30%;
-	padding-left: 5%;
+	/*padding-left: 5%;*/
 	padding-right:5%;
 }
 .rightSide{
@@ -22,6 +22,7 @@ body{
 	font-weight:700;
 	font-size:32px;
 	margin-bottom: 0px;
+	margin-top: 16px;
 }
 .photographerYear{
 	font-size:24px;
@@ -50,5 +51,55 @@ body{
 	text-align:right;
 }
 .page{
-	margin-top: 50px;
+	margin-top: 80px;
+}
+.row2{
+	display: flex;
+	justify-content: space-between;
+}
+.rowImgDiv{
+	width: 30%;
+}
+img{
+	width: 100%;
+}
+.fullImgDiv{
+	width: 100%;
+}
+.imgRow{
+	margin-top: 20px;
+}
+
+/*page 3*/
+.descriptionRow{
+	display: flex;
+}
+/*.page3 .*/
+.page3 .rowImgDiv{
+	width: 45%;
+}
+
+
+/*page4*/
+.verticalFull{
+	width: 60%;
+}
+.verticalContainer{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30%;
+}
+.verticalContainer div {
+	width: 100%;
+}
+.columnContainer{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+/*page6*/
+.vertRowImgDiv{
+	width: 23%;
 }
