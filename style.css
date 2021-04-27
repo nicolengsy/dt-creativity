@@ -1,9 +1,73 @@
+html{
+	scroll-behavior: smooth;
+}
 body{
 	margin-left: 15%;
 	margin-right: 15%;
 	background-color:#f7F3F0;
+	color: #424141;
 	font-family: 'Source Sans Pro', sans-serif;
 }
+
+/* up arrow*/
+.upDiv{
+	width: 50px;
+	position: fixed;
+	right: 30px;
+	bottom: 20px;
+}
+.upDiv img{
+	width: 100%;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+/*header*/
+.logoDiv{
+	width: 20%;
+	min-width: 150px;
+	margin-bottom: 50px;
+}
+.logoDiv img{
+	width: 100%;
+}
+.title{
+	font-family: 'Shrikhand', serif;
+	font-size: 2.1em;
+}
+.photographerList{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-size: 1.25em;
+}
+.photographerList li{
+	padding: 5px;
+}
+.photographerList a{
+	text-decoration: none;
+	color: black;
+}
+.photographerList a:hover{
+	text-decoration: underline;
+}
+.header{
+	margin-top: 70px;
+}
+.headerContent{
+	display: flex;
+	justify-content: space-between;
+}
+.headerText{
+	width: 20%;
+}
+.headerGraphic{
+	width: 60%;
+}
+.headerGraphic img{
+	width: 100%;
+}
+/*pages*/
 .page1{
 	display:flex;
 }
@@ -17,6 +81,7 @@ body{
 }
 .photographerInfo{
 	font-family: 'Playfair Display', serif;
+	position: relative;
 }
 .photographerName{
 	font-weight:700;
@@ -49,9 +114,10 @@ body{
 }
 .rightAlign{
 	text-align:right;
+	padding-right: 50px;
 }
 .page{
-	margin-top: 80px;
+	margin-top: 100px;
 }
 .row2{
 	display: flex;
@@ -67,7 +133,7 @@ img{
 	width: 100%;
 }
 .imgRow{
-	margin-top: 20px;
+	margin-bottom: 5%;
 }
 
 /*page 3*/
@@ -76,9 +142,8 @@ img{
 }
 /*.page3 .*/
 .page3 .rowImgDiv{
-	width: 45%;
+	width: 47%;
 }
-
 
 /*page4*/
 .verticalFull{
@@ -99,7 +164,65 @@ img{
 	margin-top: 30px;
 }
 
+/*page5*/
+.page5 .rowImgDiv{
+	width: 45%;
+}
+.videoDiv{
+	margin-top: 10px;
+	position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+.page5 iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
 /*page6*/
 .vertRowImgDiv{
 	width: 23%;
+}
+
+
+/*icons*/
+.icon{
+	width: 35%;
+	position: absolute;
+	right: 0;
+	top: 2px;
+	z-index: -5;
+}
+.icon-left{
+	left: -30px;
+	top: -35px;
+}
+.lower{
+	right: 30px;
+	top: 10px;
+}
+.righter{
+	left: 30px;
+}
+.lefter{
+	right: 30px;
+}
+
+/*masthead*/
+.masthead{
+	font-family: 'Playfair Display', serif;
+	margin: 50px 0px;
+}
+.masthead a{
+	color: #424141;
+	text-decoration: none;
+}
+.masthead a:hover{
+	text-decoration: underline;
 }
