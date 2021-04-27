@@ -8,6 +8,10 @@ body{
 	color: #424141;
 	font-family: 'Source Sans Pro', sans-serif;
 }
+.divider{
+	margin: 100px 40%;
+	opacity: 60%;
+}
 
 /* up arrow*/
 .upDiv{
@@ -67,6 +71,11 @@ body{
 .headerGraphic img{
 	width: 100%;
 }
+
+/*intro*/
+.intro{
+	margin-top: 60px;
+}
 /*pages*/
 .page1{
 	display:flex;
@@ -117,7 +126,7 @@ body{
 	padding-right: 50px;
 }
 .page{
-	margin-top: 100px;
+	/*margin-top: 100px;*/
 }
 .row2{
 	display: flex;
@@ -218,6 +227,11 @@ img{
 .masthead{
 	font-family: 'Playfair Display', serif;
 	margin: 50px 0px;
+}
+.masthead hr{
+	opacity:60%;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 .masthead a{
 	color: #424141;
