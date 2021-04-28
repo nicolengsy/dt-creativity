@@ -49,11 +49,13 @@ body{
 	padding: 5px;
 }
 .photographerList a{
-	text-decoration: none;
-	color: black;
+	text-decoration: underline dotted #AAB8BB;
+	color: #AAB8BB;
 }
 .photographerList a:hover{
 	text-decoration: underline;
+	color: #424141;
+
 }
 .header{
 	margin-top: 70px;
